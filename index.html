@@ -64,9 +64,9 @@
         text-align: center;
       }
 
-      /* Basil green footer */
+      
       footer {
-        background-color: #789e66; /* Basil Green */
+        background-color: #789e66; 
         color: white;
         text-align: center;
         padding: 1em;
@@ -81,29 +81,29 @@
         top: -50px;
         animation-name: fall;
         animation-timing-function: linear;
-        animation-duration: 5s; /* Fall duration */
-        animation-fill-mode: forwards; /* Ensure it stays after falling */
+        animation-duration: 5s; 
+        animation-fill-mode: forwards; 
       }
 
-      /* Set the size of the image */
+      
       .image-fall img {
-        width: 50px; /* Adjust size as needed */
+        width: 50px; 
         height: auto;
       }
 
       /* Falling and disappearing animation */
       @keyframes fall {
         0% {
-          transform: translateY(0); /* Start from top */
-          opacity: 1; /* Fully visible */
+          transform: translateY(0); 
+          opacity: 1; 
         }
         90% {
-          transform: translateY(100vh); /* Move to bottom of the viewport */
-          opacity: 1; /* Still visible */
+          transform: translateY(100vh);
+          opacity: 1;
         }
         100% {
-          transform: translateY(100vh); /* Stay at bottom */
-          opacity: 0; /* Fully transparent (disappear) */
+          transform: translateY(100vh); 
+          opacity: 0; 
         }
       }
 
